@@ -1,0 +1,414 @@
+body,html,p,h1,h1,h3,h4,h5,h6,span,div{
+    box-sizing: border-box;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.word_break{
+    word-break: break-all;
+    white-space: nowrap;
+}
+.wrapper{
+    max-width: 1140px;
+    height: auto;
+    margin: 0 auto;
+}
+.banner,.zhidian_plan,.suit_people,.why_is_zhidian,.study_way,.solve_problem{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+.zhidian_plan,.suit_people,.why_is_zhidian,.solve_problem{
+    padding: 0 65px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.text_left{
+    text-align: left;
+}
+.text_right{
+    text-align: right;
+}
+.img_vertical{
+    position: absolute;
+    height: 226px;
+    top:50%;
+    left:1%;
+    margin-top:-113px;
+}
+.img_vertical_right{
+    position: absolute;
+    height: 226px;
+    top:50%;
+    right:1%;
+    margin-top:-113px;
+}
+.img_left{
+    padding-left: 10px;
+}
+.img_right{
+    padding-right: 10px;
+}
+.clearfix:after{
+    content:"";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+
+/*标题分割线*/
+.circle{
+    display: inline-block;
+    border: 1px solid #d3d3d3;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+}
+.centerline{
+    display: inline-block;
+    width: 445px;
+    border: 1px solid #eeeeee;
+    vertical-align: middle;
+}
+/*标题颜色*/
+.everyhead_title{
+    color: #d71d21;
+    font-weight: 600;
+}
+
+/*顶部banner*/
+.banner{
+    /*height: 470px;*/
+    /*background-color: pink;*/
+    /*line-height: 470px;*/
+}
+
+/*职点开卷计划*/
+.zhidian_plan{
+    background-color: #ffffff;
+    padding:55px 70px 80px;
+}
+
+.zhidian_plan_induction{
+    margin-top:20px;
+}
+.zhidian_plan_induction>p{
+    font-size: 15px;
+    color: #d3d3d3;
+}
+.zhidian_plan_pic{
+    padding: 30px 15px;
+}
+.zhidian_plan_pic>div{
+    width: 175px;
+    height: 210px;
+    float: left;
+    margin-left: 55px;
+    padding: 10px 0;
+}
+.zhidian_plan_pic>div:nth-child(1){
+    background-color: #43ccdf;
+}
+.zhidian_plan_pic>div:nth-child(2){
+    background-color: #e96a5b;
+}
+.zhidian_plan_pic>div:nth-child(3){
+    background-color: #93d051;
+}
+.zhidian_plan_pic>div:nth-child(4){
+    background-color: #ffc001;
+}
+.zhidian_plan_pic>div>img{
+    vertical-align: middle;
+}
+
+.zhidian_plan_pic>div>p{
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 26px;
+}
+.zhidian_plan_pic>div:nth-child(1)>p,.zhidian_plan_pic>div:nth-child(2)>p{
+    margin-top: 26px;
+}
+
+/*适合什么人群学习*/
+.suit_people{
+    background-color: #f8f8f8;
+    margin-top: 165px;
+    padding-top:55px;
+}
+.suit_condition{
+    text-align: left;
+}
+.suit_people .cutline_vertical{
+    margin-top:-15px;
+    position: relative;
+}
+.suit_people .cutline_vertical .suit_1{
+    position: absolute;
+    right: 160px;
+    top: 50px;
+}
+.suit_people .cutline_vertical .suit_2{
+    position: absolute;
+    left: 160px;
+    top: 180px;
+}
+.suit_people .cutline_vertical .suit_3{
+    position: absolute;
+    right: 93px;
+    top: 310px;
+}
+.suit_people .cutline_vertical .suit_4{
+    position: absolute;
+    left: 155px;
+    top: 440px;
+}
+.suit_people .cutline_vertical .suit_5{
+    position: absolute;
+    right: 155px;
+    top: 570px;
+}
+.suit_people .circle{
+    color: #d9d9d9;
+}
+.suit_people .centerline{
+    color: #d9d9d9;
+}
+/*为什么选择职点*/
+.why_is_zhidian{
+    padding-top: 55px;
+}
+.why_is_zhidian .course_1,
+.why_is_zhidian .course_2,
+.why_is_zhidian .course_3{
+    padding:30px 30px 30px;
+    position: relative;
+}
+.why_is_zhidian .course_1,
+.why_is_zhidian .course_2{
+    border-bottom:1px solid #d3d3d3;
+}
+.why_is_zhidian img{
+    vertical-align: middle;
+}
+.why_is_zhidian .text_left{
+    text-align: left;
+    width: 540px;
+}
+.why_is_zhidian .text_left>p{
+    line-height: 50px;
+}
+.why_is_zhidian .course_head_title_1 h3,
+.why_is_zhidian .course_head_title_2 h3,
+.why_is_zhidian .course_head_title_3 h3{
+    width: 430px;
+    line-height: 50px;
+    color: #ffffff;
+}
+.why_is_zhidian .course_head_title_1 h3{
+    background-color: #f87060;
+}
+.why_is_zhidian .course_head_title_2 h3{
+    background-color: #43ccdf;
+}
+.why_is_zhidian .course_head_title_3 h3{
+    background-color: #93d051;
+}
+/*学习路径*/
+.study_way{
+    min-height: 772px;
+    padding-top: 55px;
+    background-color: #f8f8f8;
+}
+.study_way_content{
+    padding-top:40px;
+    position: relative;
+}
+.study_way_content p{
+    line-height: 36px;
+}
+/*中心图片*/
+.study_way_content .study_way_content_center{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top:55px;
+    margin-left:-180px;
+}
+/*左上*/
+.study_way_content .study_way_content_lefttop{
+    float: left;
+    color:#43ccdf;
+    font-size: 26px;
+}
+.study_way_content_lefttop .text_left{
+    width:245px;
+    font-size: 18px;
+    color:#666666;
+    margin-left:65px;
+    padding-left:60px;
+}
+.study_way_content_lefttop_title{
+    margin-left:-10px;
+}
+/*右上*/
+.study_way_content_righttop{
+    float: right;
+    color:#15b196;
+    font-size: 26px;
+    margin-right: 50px;
+}
+.study_way_content_righttop .text_left{
+    width:270px;
+    font-size: 18px;
+    color:#666666;
+    margin-left:110px;
+    padding-left:60px;
+}
+/*左下*/
+.study_way_content .study_way_content_leftbottom{
+    position: absolute;
+    color:#f8796a;
+    font-size: 26px;
+    bottom: -530px;
+    left: 0px;
+}
+.study_way_content_leftbottom .text_left{
+    width:245px;
+    font-size: 18px;
+    color:#666666;
+    margin-left:65px;
+    padding-left:60px;
+}
+.study_way_content_leftbottom_title{
+    margin-left:-10px;
+}
+
+/*右下*/
+.study_way_content_rightbottom{
+    position: absolute;
+    color:#7dce24;
+    font-size: 26px;
+    right:70px;
+    bottom: -530px;
+}
+.study_way_content_rightbottom .text_left{
+    width:245px;
+    font-size: 18px;
+    color:#666666;
+    margin-left:90px;
+    padding-left:60px;
+}
+
+
+/*解决问题*/
+.solve_problem{
+    width: 100%;
+    min-height: 1390px;
+    padding-top: 70px;
+}
+.solve_problem .solve_problem_content{
+    padding:50px 45px;
+    width:100%;
+}
+.solve_problem_content_lefttop,
+.solve_problem_content_righttop,
+.solve_problem_content_leftbottom,
+.solve_problem_content_rightbottom{
+    width: 430px;
+    min-height: 500px;
+    border:2px solid #d3d3d3;
+    padding:65px 30px 0px;
+    border-radius: 3px;
+    position: relative;
+    margin:15px auto;
+}
+.solve_problem_content_lefttophead,
+.solve_problem_content_righttophead,
+.solve_problem_content_leftbottomhead,
+.solve_problem_content_rightbottomhead{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.solve_problem_content_lefttophead header,
+.solve_problem_content_righttophead header,
+.solve_problem_content_leftbottomhead header,
+.solve_problem_content_rightbottomhead header{
+    font-size: 60px;
+}
+.solve_problem_content_lefttophead p,
+.solve_problem_content_righttophead p,
+.solve_problem_content_leftbottomhead p,
+.solve_problem_content_rightbottomhead p{
+    color: #d71d21;
+}
+.solve_problem_content_lefttopcontent,
+.solve_problem_content_righttopcontent,
+.solve_problem_content_leftbottomcontent,
+.solve_problem_content_rightbottomcontent{
+    text-align: left;
+    padding-top: 30px;
+    color:#999999;
+    line-height: 40px;
+}
+.solve_problem_content_lefttop,
+.solve_problem_content_righttop{
+    margin-bottom: 15.5px;
+}
+.solve_problem_content_lefttop:hover,
+.solve_problem_content_leftbottom:hover,
+.solve_problem_content_rightbottom:hover{
+    -webkit-animation: backAnimation 0.3s forwards;
+    -moz-animation: backAnimation 0.3s forwards;
+    -o-animation: backAnimation 0.3s forwards;
+    animation: backAnimation 0.3s forwards;
+}
+.solve_problem_content_righttop:hover{
+    -webkit-animation: backAnimation1 0.3s forwards;
+    -moz-animation: backAnimation1 0.3s forwards;
+    -o-animation: backAnimation1 0.3s forwards;
+    animation: backAnimation1 0.3s forwards;
+}
+
+@keyframes backAnimation {
+    0%{
+        background: #ffffff;
+        color: #d71d21;
+        min-height: 500px;
+    }
+    100%{
+        background: #43ccdf;
+        color:#ffffff;
+        border:0 none;
+        margin:0 auto;
+        width:100%;
+        min-height: 530px;
+
+    }
+}
+@keyframes backAnimation1 {
+    0%{
+        background: #ffffff;
+        color: #d71d21;
+        min-height: 500px;
+    }
+    100%{
+        background: #43ccdf;
+        color:#ffffff;
+        border:0 none;
+        margin:0 auto;
+        width:100%;
+        min-height: 531px;
+    }
+}
